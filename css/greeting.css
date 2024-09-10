@@ -1,5 +1,8 @@
 #greeting {
-  height: 450px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .greeting {
   position: relative;
@@ -12,7 +15,6 @@
   position: relative;
   display: flex;
   height: 180px;
-  margin: 20px;
   justify-content: center;
   align-items: center;
 }

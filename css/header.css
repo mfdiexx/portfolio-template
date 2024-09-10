@@ -17,7 +17,9 @@
   width: 100px;
   height: 55px;
 }
-
+.logo:hover img {
+  scale: 2;
+}
 .logo img {
   position: relative;
   display: flex;
@@ -34,12 +36,12 @@
   text-align: center;
   justify-content: center;
 }
-.navi a{
-  font-family:"BigBlackBear";
+.navi a {
+  font-family: "BigBlackBear";
   font-size: 14px;
 }
-.navi a:hover{
-  color: #FF3D9A;
+.navi a:hover {
+  color: #ff3d9a;
 }
 .navi li:nth-child(-n + 3) {
   border-right: 1px solid #222222;
