@@ -1,0 +1,46 @@
+.header {
+  position: fixed;
+  top: 40px;
+  width: 1000px;
+  height: 60px;
+  margin: auto;
+  padding: 0 0 0 20px;
+  border: 1px solid #222222;
+  border-radius: 16px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+}
+.logo {
+  width: 100px;
+  height: 55px;
+}
+
+.logo img {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+}
+.navi {
+  display: flex;
+}
+
+.navi li {
+  width: 110px;
+  text-align: center;
+  justify-content: center;
+}
+.navi a{
+  font-family:"BigBlackBear";
+  font-size: 14px;
+}
+.navi a:hover{
+  color: #FF3D9A;
+}
+.navi li:nth-child(-n + 3) {
+  border-right: 1px solid #222222;
+}

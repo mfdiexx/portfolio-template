@@ -1,0 +1,82 @@
+.box1 {
+  position: relative;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+.about {
+  width: 1000px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.title1 {
+  position: relative;
+  display: flex;
+}
+.title1 span {
+  font-family: "Hiruko";
+  font-weight: bolder;
+  font-style: italic;
+  font-size: 57px;
+  letter-spacing: 15px;
+  color: #ff3d9a;
+}
+.personal-info {
+  height: 400px;
+  position: relative;
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  border-radius: 28px;
+  border: 1px solid #222222;
+}
+
+.info {
+  width: 50%;
+  height: 100%;
+}
+.info span {
+  font-family: "Chopin";
+  font-weight: bold;
+  font-size: 21px;
+  letter-spacing: 2px;
+  line-height: 50px;
+}
+.info-img {
+  width: 50%;
+}
+
+.favourites{
+  width: 1000px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+}
+.title2{
+  position: absolute;
+  right: 0;
+  display: block;
+}
+
+.title2 span {
+  font-family: "Hiruko";
+  font-weight: bolder;
+  font-style: italic;
+  font-size: 57px;
+  letter-spacing: 15px;
+  color: #ff3d9a;
+  text-align: right;
+}
+.favourite-things{
+  position: relative;
+  display: flex;
+
+}
+.favourites-img{
+  position: relative;
+  display: flex;
+  width: 500px;
+}
