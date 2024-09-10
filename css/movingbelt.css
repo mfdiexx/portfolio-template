@@ -1,0 +1,56 @@
+:root {
+  --step--2: clamp(3.13rem, 2.62rem + 2.51vw, 5.76rem);
+  --step--1: clamp(3.75rem, 3.09rem + 3.29vw, 7.2rem);
+  --step-0: clamp(4.5rem, 3.64rem + 4.29vw, 9rem);
+}
+
+@-webkit-keyframes movingbelt {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes movingbelt {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.movingbelt {
+  position: relative;
+  display: flex;
+  flex: 0 0 auto;
+  width: 1000px;
+  height: 60px;
+  margin-bottom: 40px;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #222222;
+  border-bottom: 1px solid #222222;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.belt {
+  position: absolute;
+  white-space: nowrap;
+}
+
+.belt span {
+  display: inline-flex;
+  align-items: center;
+  font-family: "Hiruko";
+  font-weight: bolder;
+  font-size: 35px;
+  letter-spacing: -1px;
+  text-align: center;
+  -webkit-animation: movingbelt 50000ms linear infinite;
+  animation: movingbelt 50000ms linear infinite;
+  will-change: transform;
+  white-space: nowrap;
+}
