@@ -84,7 +84,8 @@
   align-items: center;
 }
 .favourite-things img {
-  height: 300px;
+  width: 550px;
+  height: 350px;
 }
 .favourite-things span {
   font-family: "Chopin";
