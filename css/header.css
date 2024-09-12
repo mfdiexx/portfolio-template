@@ -37,11 +37,26 @@
   justify-content: center;
 }
 .navi a {
+  position: relative;
   font-family: "BigBlackBear";
-  font-size: 14px;
+  font-size: 16px;
+  display: inline-block;
+  top: 0px;
+  left: 0px;
+  -webkit-font-smoothing: antialiased;
 }
-.navi a:hover {
+
+.navi li:hover a {
   color: #ff3d9a;
+  animation: bounce 0.5s ease infinite alternate;
+}
+@keyframes bounce {
+  50% {
+    top: 5px;
+  }
+  100% {
+    top: -5px;
+  }
 }
 .navi li:nth-child(-n + 3) {
   border-right: 1px solid #222222;

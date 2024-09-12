@@ -20,7 +20,7 @@
   font-weight: bolder;
   font-style: italic;
   font-size: 57px;
-  letter-spacing: 15px;
+  letter-spacing: 10px;
   color: #ff3d9a;
 }
 .personal-info {
@@ -39,8 +39,8 @@
 }
 .info span {
   font-family: "Chopin";
-  font-weight: bold;
   font-size: 21px;
+  font-weight: bold;
   letter-spacing: 2px;
   line-height: 50px;
 }
@@ -69,7 +69,7 @@
   font-weight: bolder;
   font-style: italic;
   font-size: 57px;
-  letter-spacing: 15px;
+  letter-spacing: 10px;
   color: #ff3d9a;
   text-align: right;
 }
